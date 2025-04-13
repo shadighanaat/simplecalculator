@@ -1,49 +1,33 @@
-# Simple Calculator 🔢
+ ماشین حساب ساده با پایتون و Tkinter
 
-This is a simple calculator written in Python. It supports the following operations:
+یک ماشین حساب گرافیکی ساده ساخته‌شده با استفاده از کتابخانه‌ی Tkinter در پایتون. این برنامه عملیات‌های پایه‌ی ریاضی مثل جمع، تفریق، ضرب، تقسیم و توان را پشتیبانی می‌کند.
+📌 ویژگی‌ها
 
-- Addition `+`
-- Subtraction `-`
-- Multiplication `*`
-- Division `/`
-- Power `**`
+    رابط گرافیکی کاربرپسند
 
-## How it works
+    پشتیبانی از عملیات: + - * / **
 
-The program runs in a loop and asks the user for an operation and two numbers, then performs the selected operation.
+    کنترل خطا (مثل تقسیم بر صفر)
 
-### Code:
+    نوشته شده با Python و Tkinter
 
-```python
-while True:  
-    operation = input('Enter the operation: ')
-    num1 = int(input('Enter number 1: '))
-    num2 = int(input('Enter number 2: '))
+ Simple Calculator with Python and Tkinter
 
-    if operation == '+':
-        def jam(a, b):
-            return a + b
-        print(jam(num1, num2))
+A simple GUI calculator built using Python's Tkinter library. It supports basic arithmetic operations like addition, subtraction, multiplication, division, and power.
+📌 Features
 
-    if operation == '-':
-        def menha(a, b):
-            return a - b
-        print(menha(num1, num2))
+    User-friendly graphical interface
 
-    if operation == '*':
-        def zarb(a, b):
-            return a * b
-        print(zarb(num1, num2))
+    Supports operations: + - * / **
 
-    if operation == '/':
-        def taghsim(a, b):
-            if b == 0:
-                return False
-            else:
-                return a / b
-        print(taghsim(num1, num2))
+    Error handling (e.g., division by zero)
 
-    if operation == '**':
-        def tavan(a, b):
-            return a ** b
-        print(tavan(num1, num2))
+    Developed using Python and Tkinter
+
+🛠️ Technologies Used | تکنولوژی‌های استفاده‌شده
+
+    Python 3.x
+
+    Tkinter (built-in Python GUI library)
+
+
